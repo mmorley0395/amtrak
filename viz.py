@@ -27,7 +27,7 @@ column_layer = pdk.Layer(
 )
 
 tooltip = {
-    "html": "<b>{Value}</b> riders per year in 2019",
+    "html": "There<b>{Value}</b> riders in 2019 at the <b>{Station}</b> Amtrak station.",
     "style": {"background": "grey", "color": "white", "font-family": '"Helvetica Neue", Arial', "z-index": "10000"},
 }
 
