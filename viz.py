@@ -2,7 +2,6 @@ import pydeck as pdk
 import os 
 import pandas as pd
 
-# HEXAGON_LAYER_DATA = one_crime_choose_year(2022, "robbery") # noqa
 path = os.path.expanduser("~/Downloads/map_Full_Data_data.csv") 
 
 df = pd.read_csv(path, encoding = "utf-16", sep = '\t')
